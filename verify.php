@@ -10,8 +10,13 @@
     <hr><br>
     <div style="text-align: center;">
     เข้าสู่ระบบด้วย <br>
-    Login =  <?php echo $_POST["login"];?> <br>
-    Password =  <?php echo $_POST["pwd"];?>
+  <?php
+    $Login=$_POST["login"];
+    $Pass=$_POST["pwd"];
+     if(($Login=="admin")&&$Pass=="ad1234"){
+        echo "ยินดีต้อนรับ ADMIN";
+     }
+     ?>
     </div>
 </body>
 </html>
