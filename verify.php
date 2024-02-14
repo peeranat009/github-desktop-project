@@ -8,8 +8,10 @@
 <body>
 <h1 style="text-align: center;">Webboard Nine</h1>
     <hr><br>
+    <div style="text-align: center;">
     เข้าสู่ระบบด้วย <br>
-    Login =  <?php echo $_POST["login"];?>
+    Login =  <?php echo $_POST["login"];?> <br>
     Password =  <?php echo $_POST["pwd"];?>
+    </div>
 </body>
 </html>
